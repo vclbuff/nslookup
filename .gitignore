@@ -1,0 +1,18 @@
+*.js
+!jest.config.js
+*.d.ts
+node_modules
+!lambda/**/*.js
+
+# CDK asset staging directory
+.cdk.staging
+cdk.out
+
+.envrc
+outputs.json
+current-env.sh
+
+*.swp
+
+!frontend/**/*.js
+!utils/**/*.js
